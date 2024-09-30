@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.portfolio-logo {
+    width: 150px;
+    height: 60px;
+}
+
+.linkdin {
+    color: blue;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 100vh;
+}
+
+.banner-section-heading {
+    font-size: 45px;
+    font-family: "roboto";
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.banner-section-description {
+    font-size: 24px;
+    font-family: "roboto";
+    color: #9aa5b1;
+}
+
+.banner-section-image {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 10px;
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.custom-button {
+    background-color: #4b6cc1;
+    color: #ffffff;
+    width: 130px;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.venky-color {
+    color: #4b6cc1;
+}
+
+
+
+.p-w-about-me-bg-container {
+    background-color: #323f4b;
+}
+
+.aboute-me-section-heading {
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #cced00;
+}
+
+.aboute-me-section-title {
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.aboute-me-section-description {
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+.p-w-skills-bg-container {
+    background-color: #1f2933;
+}
+
+.skills-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.skills-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+.skills-item {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust width based on design */
+    text-align: center;
+    padding: 5px;
+}
+
+.skills-item img {
+    width: 100%;
+    max-width: 150px;
+    height: 100px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+.skills-item-card-container {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-item-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-item-card-title {
+    font-size: 22px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+
+.project-section-bg-container {
+    background-color: #3e4c59;
+}
+
+.projects-image-style {
+    height: 250px;
+}
+
+.project-section-container-heading {
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #cced00;
+}
+
+.project-section-container-title {
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.item-card-bg-royal-grand-hotel {
+    background-color: #323f4b;
+}
+
+.item-card-royal-grand-hotel-heading {
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+.item-card-royal-grand-hotel-title {
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.item-card-royal-grand-hotel-para {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+.item-card-anchor-text {
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #cced00;
+}
+
+
+
+
+.w-s-bg-container {
+    background-color: #52606d;
+}
+
+.w-s-bg-container-title {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #cced00;
+}
+
+.w-s-bg-container-heading {
+    font-size: 36px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.w-s-item-card-container {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.item-card-image {
+    width: 48px;
+    height: 48px;
+}
+
+.w-s-item-card-container-heading {
+    font-size: 24px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.w-s-item-card-container-para {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+
+
+.work-done-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.hr-line {
+    background-color: #ffffff;
+    width: 60px;
+}
+
+.work-done-number {
+    font-size: 36px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.work-done-text {
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+
+.testimonial-bg-container {
+    background-color: #1f2933;
+    padding: 40px;
+}
+
+.testimonials-card {
+    background-color: #323f4b;
+    padding: 20px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.testimonial-bg-container-heading {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #cced00;
+}
+
+.testimonial-bg-container-title {
+    font-size: 36px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.testimonials-card-para {
+    font-size: 18px;
+    font-family: "roboto";
+    color: #9aa5b1;
+}
+
+.testimonials-card-para2 {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+.footer-section-bg-container {
+    background-color: #0d2436;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+.footer-section-container-name {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #cced00;
+}
+
+.footer-section-container-roll {
+    font-size: 14px;
+    font-family: "roboto";
+    color: #9aa5b1;
+}
+
+.footer-section-text {
+    color: #9aa5b1;
+    font-size: 14px;
+    font-family: "roboto";
+
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.c-circle {
+    background-color: #001c32;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
